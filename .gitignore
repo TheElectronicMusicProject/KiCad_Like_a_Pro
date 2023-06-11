@@ -1,0 +1,15 @@
+*.xml
+*.dns
+.DS_Store
+fp-info-cache
+*Gerber/*
+**/*Gerber/*
+*gerber/*
+**/*gerber/*
+Gerber*/*
+**/Gerber*/*
+gerber*/*
+**/gerber*/*
+*backups/*
+**/*backups/*
+*.kicad_prl
