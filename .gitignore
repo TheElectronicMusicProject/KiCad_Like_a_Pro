@@ -1,5 +1,7 @@
 *.xml
 *.dns
+*.zip
+*.pdf
 .DS_Store
 fp-info-cache
 *Gerber/*
