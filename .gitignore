@@ -15,3 +15,5 @@ gerber*/*
 *backups/*
 **/*backups/*
 *.kicad_prl
+**/\#auto_saved_files\#
+\#auto_saved_files\#
