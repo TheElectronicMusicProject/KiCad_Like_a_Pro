@@ -229,10 +229,10 @@
       (net 2 "GND") (pinfunction "Pin_1") (pintype "passive") (tstamp 07a441ea-8f1f-4db9-ac2d-0db20a07804b))
     (pad "2" thru_hole circle locked (at 5.08 0) (size 3 3) (drill 1.52) (layers "*.Cu" "*.Mask")
       (net 6 "/PWR_OUT_TOP") (pinfunction "Pin_2") (pintype "passive") (tstamp 19b9540a-a927-447c-b4a5-bb671f44c762))
-    (model "${KICAD6_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-2_P5.08mm.wrl"
-      (offset (xyz 2.539999962 0 0))
+    (model "${KIPRJMOD}/3d_models/282837-2--3DModel-STEP-269445.STEP"
+      (offset (xyz 2.5 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 180))
     )
   )
 
@@ -504,10 +504,10 @@
       (net 2 "GND") (pintype "passive") (tstamp f9df31f5-2c50-4fd0-bcaa-ab9551c32840))
     (pad "3" thru_hole roundrect (at -3 4.7) (size 3.5 3.5) (drill oval 3 1) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp aead5ffd-7e7d-4fe0-ba87-c1d6fdedc671))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_Horizontal.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/3d_models/PJ-102A--3DModel-STEP-56544.STEP"
+      (offset (xyz -6.5 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 90 180 0))
     )
   )
 
@@ -943,10 +943,10 @@
       (net 2 "GND") (pinfunction "Pin_1") (pintype "passive") (tstamp 51e437c5-9eea-4e9f-b5f3-3d7490773836))
     (pad "2" thru_hole circle locked (at 5.08 0) (size 3 3) (drill 1.52) (layers "*.Cu" "*.Mask")
       (net 10 "/PWR_OUT_BOTTOM") (pinfunction "Pin_2") (pintype "passive") (tstamp 2d3833c6-9413-423a-811b-463befec143d))
-    (model "${KICAD6_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-2_P5.08mm.wrl"
-      (offset (xyz 2.539999962 0 0))
+    (model "${KIPRJMOD}/3d_models/282837-2--3DModel-STEP-269445.STEP"
+      (offset (xyz 2.5 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -1150,6 +1150,11 @@
       (net 7 "/PWR_input") (pintype "passive") (tstamp 5638de05-6726-4d19-b0be-8d342e96870b))
     (pad "3" thru_hole circle locked (at 5 0 180) (size 1.9 1.9) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 9 "unconnected-(S1-Pad3)") (pintype "passive+no_connect") (tstamp d7b689e2-acf1-4caa-b563-82c60abb907b))
+    (model "${KIPRJMOD}/3d_models/EG1218--3DModel-STEP-520916.STEP"
+      (offset (xyz 2.5 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" locked (layer "F.Cu")
