@@ -180,4 +180,5 @@
   (lib (name "SparkFun-Switches")(type "Legacy")(uri "/home/filippo/Documents/KiCad_projects/Project-Libraries/SparkFun-KiCad-Libraries/Libraries/SparkFun-Switches.lib")(options "")(descr ""))
   (lib (name "1825967-1")(type "KiCad")(uri "/home/filippo/Documents/KiCad_projects/Project-Libraries/1825967-1/1825967-1.kicad_sym")(options "")(descr ""))
   (lib (name "SS12D07VG4")(type "KiCad")(uri "/home/filippo/Documents/KiCad_projects/Project-Libraries/SS12D07VG4/SS12D07VG4.kicad_sym")(options "")(descr ""))
+  (lib (name "filippo_arduino_pro_mini")(type "KiCad")(uri "/home/filippo/Documents/KiCad_projects/KiCad-Like-a-Pro/custom_libraries/filippo_arduino_pro_mini/filippo_arduino_pro_mini.kicad_sym")(options "")(descr ""))
 )
