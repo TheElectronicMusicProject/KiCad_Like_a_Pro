@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "filippo_arduino_pro_mini")(type "KiCad")(uri "/home/filippo/Documents/KiCad_projects/KiCad-Like-a-Pro/custom_libraries/filippo_arduino_pro_mini/filippo_arduino_pro_mini.pretty")(options "")(descr ""))
+)
