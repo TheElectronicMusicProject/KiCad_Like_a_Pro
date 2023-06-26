@@ -97,7 +97,7 @@
         (name "TXO" (effects (font (size 1.27 1.27))))
         (number "25" (effects (font (size 1.27 1.27))))
       )
-      (pin bidirectional line (at -16.4773 -27.9518 0) (length 2.54)
+      (pin bidirectional line (at -16.51 -27.94 0) (length 2.54)
         (name "A7" (effects (font (size 1.27 1.27))))
         (number "26" (effects (font (size 1.27 1.27))))
       )
