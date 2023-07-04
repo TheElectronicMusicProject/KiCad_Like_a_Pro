@@ -1546,7 +1546,7 @@
   (symbol (lib_id "DS1337S_:DS1337S+") (at 68.58 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b5cfd1b-fda5-4f46-ba48-b97e5389654e)
-    (property "Reference" "U3" (at 68.58 35.56 0)
+    (property "Reference" "U1" (at 68.58 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DS1337S+" (at 68.58 38.1 0)
@@ -1569,7 +1569,7 @@
     (instances
       (project "prj4_mcu_datalogger"
         (path "/113afd8f-37a6-4b7d-b287-98fcce6abb85"
-          (reference "U3") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -1607,7 +1607,7 @@
   (symbol (lib_id "power:GND") (at 87.63 67.945 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15e2a4d8-feb8-4db6-8341-7c8cd8210b3c)
-    (property "Reference" "#PWR01" (at 87.63 74.295 0)
+    (property "Reference" "#PWR02" (at 87.63 74.295 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 87.63 73.025 0)
@@ -1623,7 +1623,7 @@
     (instances
       (project "prj4_mcu_datalogger"
         (path "/113afd8f-37a6-4b7d-b287-98fcce6abb85"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -1632,7 +1632,7 @@
   (symbol (lib_id "Device:C") (at 114.3 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1dc5897d-da60-46a9-a03d-e5553bb573f2)
-    (property "Reference" "C1" (at 118.11 41.91 0)
+    (property "Reference" "C2" (at 118.11 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 118.11 44.45 0)
@@ -1652,7 +1652,7 @@
     (instances
       (project "prj4_mcu_datalogger"
         (path "/113afd8f-37a6-4b7d-b287-98fcce6abb85"
-          (reference "C1") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -1719,7 +1719,7 @@
   (symbol (lib_id "Memory_EEPROM:24LC1025") (at 43.18 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2542465a-de34-4f90-ae29-f6c67abae2f9)
-    (property "Reference" "U1" (at 45.1359 133.35 0)
+    (property "Reference" "U3" (at 45.1359 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "24LC1025" (at 45.1359 135.89 0)
@@ -1742,7 +1742,7 @@
     (instances
       (project "prj4_mcu_datalogger"
         (path "/113afd8f-37a6-4b7d-b287-98fcce6abb85"
-          (reference "U1") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -1751,7 +1751,7 @@
   (symbol (lib_id "ATMEGA328P-AU:ATMEGA328P-AU") (at 200.66 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b064262-43b1-4cfd-8fd3-751a79367354)
-    (property "Reference" "U4" (at 200.66 38.1 0)
+    (property "Reference" "U2" (at 200.66 38.1 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ATMEGA328P-AU" (at 200.66 40.64 0)
@@ -1804,7 +1804,7 @@
     (instances
       (project "prj4_mcu_datalogger"
         (path "/113afd8f-37a6-4b7d-b287-98fcce6abb85"
-          (reference "U4") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -1895,7 +1895,7 @@
   (symbol (lib_id "power:GND") (at 114.3 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c54a482-7f40-4ed1-8b8a-46aec2818410)
-    (property "Reference" "#PWR02" (at 114.3 54.61 0)
+    (property "Reference" "#PWR01" (at 114.3 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 114.3 53.34 0)
@@ -1911,7 +1911,7 @@
     (instances
       (project "prj4_mcu_datalogger"
         (path "/113afd8f-37a6-4b7d-b287-98fcce6abb85"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -1974,7 +1974,7 @@
   (symbol (lib_id "Device:R") (at 236.22 81.915 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 623df4f7-013d-41cb-b94b-4d0f4391e116)
-    (property "Reference" "R5" (at 238.76 80.645 0)
+    (property "Reference" "R4" (at 238.76 80.645 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "330" (at 238.76 83.185 0)
@@ -1994,7 +1994,7 @@
     (instances
       (project "prj4_mcu_datalogger"
         (path "/113afd8f-37a6-4b7d-b287-98fcce6abb85"
-          (reference "R5") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -2032,7 +2032,7 @@
   (symbol (lib_id "Memory_EEPROM:24LC1025") (at 85.09 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 71c1d175-05f9-4387-b8cc-d0df165efe9a)
-    (property "Reference" "U2" (at 87.0459 133.35 0)
+    (property "Reference" "U4" (at 87.0459 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "24LC1025" (at 87.0459 135.89 0)
@@ -2055,7 +2055,7 @@
     (instances
       (project "prj4_mcu_datalogger"
         (path "/113afd8f-37a6-4b7d-b287-98fcce6abb85"
-          (reference "U2") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -2116,7 +2116,7 @@
   (symbol (lib_id "power:GND") (at 220.98 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 79eeae84-cc0e-446a-ac67-f51ad8fa03d5)
-    (property "Reference" "#PWR05" (at 220.98 105.41 0)
+    (property "Reference" "#PWR04" (at 220.98 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 220.98 104.14 0)
@@ -2132,7 +2132,7 @@
     (instances
       (project "prj4_mcu_datalogger"
         (path "/113afd8f-37a6-4b7d-b287-98fcce6abb85"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -2165,7 +2165,7 @@
   (symbol (lib_id "power:GND") (at 171.45 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7b0111c9-68ce-4e85-b7d7-ce75445340b1)
-    (property "Reference" "#PWR09" (at 171.45 133.35 0)
+    (property "Reference" "#PWR07" (at 171.45 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 171.45 132.08 0)
@@ -2181,7 +2181,7 @@
     (instances
       (project "prj4_mcu_datalogger"
         (path "/113afd8f-37a6-4b7d-b287-98fcce6abb85"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -2190,7 +2190,7 @@
   (symbol (lib_id "power:GND") (at 236.22 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 823e40f2-cca0-40a1-82b9-36b6b7466562)
-    (property "Reference" "#PWR06" (at 236.22 105.41 0)
+    (property "Reference" "#PWR05" (at 236.22 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 236.22 104.14 0)
@@ -2206,7 +2206,7 @@
     (instances
       (project "prj4_mcu_datalogger"
         (path "/113afd8f-37a6-4b7d-b287-98fcce6abb85"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -2215,7 +2215,7 @@
   (symbol (lib_id "Device:C") (at 155.575 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 859239e7-51c1-464d-a676-2976a4a99d23)
-    (property "Reference" "C2" (at 155.575 56.515 90)
+    (property "Reference" "C4" (at 155.575 56.515 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22pF" (at 155.575 59.055 90)
@@ -2235,7 +2235,7 @@
     (instances
       (project "prj4_mcu_datalogger"
         (path "/113afd8f-37a6-4b7d-b287-98fcce6abb85"
-          (reference "C2") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -2269,7 +2269,7 @@
   (symbol (lib_id "Device:C") (at 155.575 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8636acb7-04ae-4f5d-9470-c64eb772dfb1)
-    (property "Reference" "C3" (at 155.575 68.58 90)
+    (property "Reference" "C5" (at 155.575 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22pF" (at 155.575 71.12 90)
@@ -2289,7 +2289,7 @@
     (instances
       (project "prj4_mcu_datalogger"
         (path "/113afd8f-37a6-4b7d-b287-98fcce6abb85"
-          (reference "C3") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -2298,7 +2298,7 @@
   (symbol (lib_id "power:GND") (at 261.62 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9391a1a0-282d-4d37-bc0f-a02ff3573b16)
-    (property "Reference" "#PWR07" (at 261.62 105.41 0)
+    (property "Reference" "#PWR06" (at 261.62 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 261.62 104.14 0)
@@ -2314,7 +2314,7 @@
     (instances
       (project "prj4_mcu_datalogger"
         (path "/113afd8f-37a6-4b7d-b287-98fcce6abb85"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -2323,7 +2323,7 @@
   (symbol (lib_id "power:GND") (at 85.09 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 98255619-19a0-4e74-a41c-2aef9c3980c6)
-    (property "Reference" "#PWR04" (at 85.09 161.29 0)
+    (property "Reference" "#PWR09" (at 85.09 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 85.09 160.02 0)
@@ -2339,7 +2339,7 @@
     (instances
       (project "prj4_mcu_datalogger"
         (path "/113afd8f-37a6-4b7d-b287-98fcce6abb85"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -2374,7 +2374,7 @@
   (symbol (lib_id "Device:R") (at 173.99 91.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid abfb0ec5-7326-49e9-bb6e-55e0b3442e1a)
-    (property "Reference" "R4" (at 173.99 85.09 90)
+    (property "Reference" "R5" (at 173.99 85.09 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 173.99 87.63 90)
@@ -2394,7 +2394,7 @@
     (instances
       (project "prj4_mcu_datalogger"
         (path "/113afd8f-37a6-4b7d-b287-98fcce6abb85"
-          (reference "R4") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -2403,7 +2403,7 @@
   (symbol (lib_id "power:GND") (at 143.51 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b1d3a2dd-e895-409f-971a-281336aa6e37)
-    (property "Reference" "#PWR08" (at 143.51 86.36 0)
+    (property "Reference" "#PWR03" (at 143.51 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 143.51 85.09 0)
@@ -2419,7 +2419,7 @@
     (instances
       (project "prj4_mcu_datalogger"
         (path "/113afd8f-37a6-4b7d-b287-98fcce6abb85"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -2428,7 +2428,7 @@
   (symbol (lib_id "Device:C") (at 162.56 38.1 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9ee5b33-4ba7-4106-be29-b6b814d2cb5a)
-    (property "Reference" "C4" (at 162.56 30.48 90)
+    (property "Reference" "C1" (at 162.56 30.48 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uF" (at 162.56 33.02 90)
@@ -2448,7 +2448,7 @@
     (instances
       (project "prj4_mcu_datalogger"
         (path "/113afd8f-37a6-4b7d-b287-98fcce6abb85"
-          (reference "C4") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -2457,7 +2457,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 248.285 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c3febd39-9bd1-461c-a1e2-bffa2baf31d6)
-    (property "Reference" "C5" (at 252.095 56.261 0)
+    (property "Reference" "C3" (at 252.095 56.261 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 252.095 58.801 0)
@@ -2477,7 +2477,7 @@
     (instances
       (project "prj4_mcu_datalogger"
         (path "/113afd8f-37a6-4b7d-b287-98fcce6abb85"
-          (reference "C5") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -2510,7 +2510,7 @@
   (symbol (lib_id "power:GND") (at 43.18 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eaf374e4-1ecd-4f8f-8882-ca3b6210cc5d)
-    (property "Reference" "#PWR03" (at 43.18 161.29 0)
+    (property "Reference" "#PWR08" (at 43.18 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 43.18 160.02 0)
@@ -2526,7 +2526,7 @@
     (instances
       (project "prj4_mcu_datalogger"
         (path "/113afd8f-37a6-4b7d-b287-98fcce6abb85"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
