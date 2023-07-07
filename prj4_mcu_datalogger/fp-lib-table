@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ATMEGA328P-AU")(type "KiCad")(uri "/home/filippo/Documents/KiCad_projects/Project-Libraries/ATMEGA328P-AU")(options "")(descr ""))
+  (lib (name "DS1337S")(type "KiCad")(uri "/home/filippo/Documents/KiCad_projects/Project-Libraries/DS1337S")(options "")(descr ""))
+)
