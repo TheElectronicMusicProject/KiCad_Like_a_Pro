@@ -5404,73 +5404,73 @@
   (gr_text "D5" (at 140.7922 107.2134) (layer "F.SilkS") (tstamp ef77295f-2eab-45e0-bd43-e6c8ab893ead)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left bottom))
   )
-  (gr_text "" (at 166.573481 128.0182) (layer "User.3") (tstamp 016b7c7d-808c-4f24-af57-e0aaa92c5276)
+  (gr_text "Min hole diameter: " (at 166.700481 131.645) (layer "User.3") (tstamp 123ae61d-e14e-48c0-a285-b501f646d67b)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
   )
-  (gr_text "1,6000 mm" (at 191.516338 124.0612) (layer "User.3") (tstamp 0815367c-585e-4733-8b6e-43b165b97ba8)
+  (gr_text "4" (at 132.543343 123.731) (layer "User.3") (tstamp 23c508bf-f5be-4024-9732-a325f46190ce)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
   )
-  (gr_text "BOARD CHARACTERISTICS" (at 99.0092 118.5672) (layer "User.3") (tstamp 1e3ecf31-6488-4c28-bf2f-e8f0c557f147)
+  (gr_text "BOARD CHARACTERISTICS" (at 99.1362 118.237) (layer "User.3") (tstamp 3cfe7adf-70c3-4f37-bc22-ede9b40fa5b3)
     (effects (font (size 2 2) (thickness 0.4)) (justify left top))
   )
-  (gr_text "None" (at 132.416343 135.9322) (layer "User.3") (tstamp 1ffa4aaa-3449-4395-bf45-7b8def4fe71e)
+  (gr_text "Copper Finish: " (at 99.8862 135.602) (layer "User.3") (tstamp 4b7cca96-bfdf-45c3-bcb8-402361f4100e)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
   )
-  (gr_text "Castellated pads: " (at 99.7592 139.8892) (layer "User.3") (tstamp 2be232a7-b6d6-4bcf-bfe9-01282eeb2469)
+  (gr_text "No" (at 132.543343 139.559) (layer "User.3") (tstamp 4d347414-da70-487a-a129-9c17587dad51)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
   )
-  (gr_text "2" (at 132.416343 124.0612) (layer "User.3") (tstamp 30a7f5fb-defe-482c-85a5-ed5333db6d84)
+  (gr_text "Board overall dimensions: " (at 99.8862 127.688) (layer "User.3") (tstamp 5de5d3f2-62de-4ed3-ad85-be648da4f9fd)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
   )
-  (gr_text "Min track/spacing: " (at 99.7592 131.9752) (layer "User.3") (tstamp 4406447b-1fb6-4948-9ccd-133cf06ad0aa)
+  (gr_text "No" (at 191.643338 139.559) (layer "User.3") (tstamp 63a4399e-a40d-4377-8f06-366acc4e96a0)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
   )
-  (gr_text "No" (at 191.516338 135.9322) (layer "User.3") (tstamp 4480ad8a-d0c6-44ab-8487-528564bb272a)
+  (gr_text "1,6000 mm" (at 191.643338 123.731) (layer "User.3") (tstamp 67663d47-6616-48a6-a25e-65ee57d5cdcd)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
   )
-  (gr_text "Edge card connectors: " (at 99.7592 143.8462) (layer "User.3") (tstamp 4d6738fc-ba97-43a1-b47c-3ad8bbe08d26)
+  (gr_text "None" (at 132.543343 135.602) (layer "User.3") (tstamp 6afa1b57-df0d-450a-ae1d-79cc885d5748)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
   )
-  (gr_text "0,3000 mm" (at 191.516338 131.9752) (layer "User.3") (tstamp 5fc2906a-25e2-483f-8bde-0476cdd31fe0)
+  (gr_text "Plated Board Edge: " (at 166.700481 139.559) (layer "User.3") (tstamp 76828ecb-5a7d-4863-957e-7344b6b51470)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
   )
-  (gr_text "Plated Board Edge: " (at 166.573481 139.8892) (layer "User.3") (tstamp 7e0ce513-16d4-4113-9c54-80082688610d)
+  (gr_text "No" (at 191.643338 135.602) (layer "User.3") (tstamp 8ac9e2f8-e632-479f-9dfb-94bd66abc007)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
   )
-  (gr_text "Board overall dimensions: " (at 99.7592 128.0182) (layer "User.3") (tstamp 88e53aee-dba3-4ada-87b6-c0382b93037e)
+  (gr_text "Min track/spacing: " (at 99.8862 131.645) (layer "User.3") (tstamp 8f70d793-0f4f-4668-b867-0858f1773674)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
   )
-  (gr_text "Board Thickness: " (at 166.573481 124.0612) (layer "User.3") (tstamp 8f98d622-b351-4b3f-b190-d4621321c43d)
+  (gr_text "No" (at 132.543343 143.516) (layer "User.3") (tstamp 9dedd8d1-f0d1-422f-8ee2-7ad8fa5b4681)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
   )
-  (gr_text "53,3400 mm x 34,9250 mm" (at 132.416343 128.0182) (layer "User.3") (tstamp aa829264-62ff-43fc-9f48-d0129898dc27)
+  (gr_text "Copper Layer Count: " (at 99.8862 123.731) (layer "User.3") (tstamp aa90b51b-3cb2-493e-b639-b32025578558)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
   )
-  (gr_text "No" (at 191.516338 139.8892) (layer "User.3") (tstamp b4a7c9b9-c3c4-4d16-a345-8938557b2338)
+  (gr_text "0,3000 mm" (at 191.643338 131.645) (layer "User.3") (tstamp b6dc6260-4f9a-4da5-a48f-d82862f38ed8)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
   )
-  (gr_text "Min hole diameter: " (at 166.573481 131.9752) (layer "User.3") (tstamp b6fb1491-6c38-4ccc-94ce-1f5fdafc045a)
+  (gr_text "Impedance Control: " (at 166.700481 135.602) (layer "User.3") (tstamp c167c3d5-b9c6-4978-858b-9d02707604f4)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
   )
-  (gr_text "No" (at 132.416343 139.8892) (layer "User.3") (tstamp b745a141-6a2b-4fe2-9a92-bbd22cc450b7)
+  (gr_text "0,2000 mm / 0,0000 mm" (at 132.543343 131.645) (layer "User.3") (tstamp c3a206e5-2bca-45a2-b823-1bd8090e9281)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
   )
-  (gr_text "No" (at 132.416343 143.8462) (layer "User.3") (tstamp bda995ab-5720-48e8-b34c-f51b8063a754)
+  (gr_text "53,3400 mm x 34,9250 mm" (at 132.543343 127.688) (layer "User.3") (tstamp d49a92cf-a450-48d8-92aa-2c011b700e9c)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
   )
-  (gr_text "" (at 191.516338 128.0182) (layer "User.3") (tstamp be58cea6-572c-4740-9f2f-0cfed18a746f)
+  (gr_text "" (at 166.700481 127.688) (layer "User.3") (tstamp d757f406-a52f-465e-8f14-a837fa7cd1a4)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
   )
-  (gr_text "Copper Layer Count: " (at 99.7592 124.0612) (layer "User.3") (tstamp d261df76-362a-42f7-9c8a-9b27b2a2a0e2)
+  (gr_text "Castellated pads: " (at 99.8862 139.559) (layer "User.3") (tstamp d75b7921-1dbc-43d7-b69f-3984128a7014)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
   )
-  (gr_text "0,2000 mm / 0,0000 mm" (at 132.416343 131.9752) (layer "User.3") (tstamp d7f85d98-6fbf-4672-931d-c95a39241ce7)
+  (gr_text "Board Thickness: " (at 166.700481 123.731) (layer "User.3") (tstamp d84e868c-4c9f-4918-906c-3ab9034df781)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
   )
-  (gr_text "Copper Finish: " (at 99.7592 135.9322) (layer "User.3") (tstamp e92aa405-69c0-4992-ae06-e79158359de9)
+  (gr_text "" (at 191.643338 127.688) (layer "User.3") (tstamp d9ed89d3-54ac-4df1-914c-35a7474b2c3d)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
   )
-  (gr_text "Impedance Control: " (at 166.573481 135.9322) (layer "User.3") (tstamp f330ad66-3fc5-4acb-896b-409801432205)
+  (gr_text "Edge card connectors: " (at 99.8862 143.516) (layer "User.3") (tstamp f4218f24-52e9-4e82-8479-ed02a38b5624)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
   )
 
@@ -17115,31 +17115,31 @@
       )
     )
   )
-  (group "group-boardCharacteristics" (id 48a9f634-1ed8-4863-b72a-47090ae65aaf)
+  (group "group-boardCharacteristics" (id 835a4985-3e47-4add-b795-97bb868c2b42)
     (members
-      016b7c7d-808c-4f24-af57-e0aaa92c5276
-      0815367c-585e-4733-8b6e-43b165b97ba8
-      1e3ecf31-6488-4c28-bf2f-e8f0c557f147
-      1ffa4aaa-3449-4395-bf45-7b8def4fe71e
-      2be232a7-b6d6-4bcf-bfe9-01282eeb2469
-      30a7f5fb-defe-482c-85a5-ed5333db6d84
-      4406447b-1fb6-4948-9ccd-133cf06ad0aa
-      4480ad8a-d0c6-44ab-8487-528564bb272a
-      4d6738fc-ba97-43a1-b47c-3ad8bbe08d26
-      5fc2906a-25e2-483f-8bde-0476cdd31fe0
-      7e0ce513-16d4-4113-9c54-80082688610d
-      88e53aee-dba3-4ada-87b6-c0382b93037e
-      8f98d622-b351-4b3f-b190-d4621321c43d
-      aa829264-62ff-43fc-9f48-d0129898dc27
-      b4a7c9b9-c3c4-4d16-a345-8938557b2338
-      b6fb1491-6c38-4ccc-94ce-1f5fdafc045a
-      b745a141-6a2b-4fe2-9a92-bbd22cc450b7
-      bda995ab-5720-48e8-b34c-f51b8063a754
-      be58cea6-572c-4740-9f2f-0cfed18a746f
-      d261df76-362a-42f7-9c8a-9b27b2a2a0e2
-      d7f85d98-6fbf-4672-931d-c95a39241ce7
-      e92aa405-69c0-4992-ae06-e79158359de9
-      f330ad66-3fc5-4acb-896b-409801432205
+      123ae61d-e14e-48c0-a285-b501f646d67b
+      23c508bf-f5be-4024-9732-a325f46190ce
+      3cfe7adf-70c3-4f37-bc22-ede9b40fa5b3
+      4b7cca96-bfdf-45c3-bcb8-402361f4100e
+      4d347414-da70-487a-a129-9c17587dad51
+      5de5d3f2-62de-4ed3-ad85-be648da4f9fd
+      63a4399e-a40d-4377-8f06-366acc4e96a0
+      67663d47-6616-48a6-a25e-65ee57d5cdcd
+      6afa1b57-df0d-450a-ae1d-79cc885d5748
+      76828ecb-5a7d-4863-957e-7344b6b51470
+      8ac9e2f8-e632-479f-9dfb-94bd66abc007
+      8f70d793-0f4f-4668-b867-0858f1773674
+      9dedd8d1-f0d1-422f-8ee2-7ad8fa5b4681
+      aa90b51b-3cb2-493e-b639-b32025578558
+      b6dc6260-4f9a-4da5-a48f-d82862f38ed8
+      c167c3d5-b9c6-4978-858b-9d02707604f4
+      c3a206e5-2bca-45a2-b823-1bd8090e9281
+      d49a92cf-a450-48d8-92aa-2c011b700e9c
+      d757f406-a52f-465e-8f14-a837fa7cd1a4
+      d75b7921-1dbc-43d7-b69f-3984128a7014
+      d84e868c-4c9f-4918-906c-3ab9034df781
+      d9ed89d3-54ac-4df1-914c-35a7474b2c3d
+      f4218f24-52e9-4e82-8479-ed02a38b5624
     )
   )
 )
