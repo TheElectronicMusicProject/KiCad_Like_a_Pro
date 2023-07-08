@@ -2,6 +2,7 @@
 *.dns
 *.zip
 *.pdf
+*.lck
 .DS_Store
 fp-info-cache
 *Gerber/*
