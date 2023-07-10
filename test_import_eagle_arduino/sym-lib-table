@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "test_import_eagle_arduino-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/test_import_eagle_arduino-eagle-import.kicad_sym")(options "")(descr ""))
+)
