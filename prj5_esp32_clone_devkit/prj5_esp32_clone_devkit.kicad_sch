@@ -1,0 +1,21 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 9a59bea8-fec7-4d15-88e5-b3bf52f82737)
+
+  (paper "A4")
+
+  (title_block
+    (title "ESP32 Devkit Clone")
+    (date "2023-07-12")
+    (rev "1")
+    (company "Filippo Graziani")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
