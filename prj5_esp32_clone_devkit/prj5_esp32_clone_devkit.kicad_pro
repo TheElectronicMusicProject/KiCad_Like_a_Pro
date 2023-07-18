@@ -563,8 +563,8 @@
         "pattern": "/SENSOR*"
       },
       {
-        "netclass": "Default",
-        "pattern": ""
+        "netclass": "Data",
+        "pattern": "/RTS"
       }
     ]
   },
