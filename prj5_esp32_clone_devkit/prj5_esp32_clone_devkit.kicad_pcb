@@ -259,9 +259,9 @@
       (net 2 "GND") (pinfunction "Shield") (pintype "passive") (tstamp 4ca601e3-a08b-4c0e-8351-31e26c39bf10))
     (pad "6" thru_hole oval (at 4.175 0) (size 1 1.9) (drill oval 0.6 1.3) (layers "*.Cu" "*.Mask")
       (net 2 "GND") (pinfunction "Shield") (pintype "passive") (tstamp bdd2d34e-de6f-4448-8f6a-68d2318ff39b))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Micro-AB_Molex_47590-0001.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+    (model ":KICAD7_3DMODEL_DIR:Connector_USB.3dshapes/USB_Micro-B_Molex_47346-0001.step"
+      (offset (xyz 0 1.5 0))
+      (scale (xyz 1 1.2 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -493,6 +493,11 @@
       (net 43 "/RTS") (pinfunction "E") (pintype "passive") (solder_mask_margin 0.07) (tstamp 687d67d6-13a4-4627-af59-fd78fddbb5e0))
     (pad "3" smd rect (at 1.05 0) (size 1.3 0.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "/EN") (pinfunction "C") (pintype "passive") (solder_mask_margin 0.07) (tstamp e471259a-fde9-4e59-a9c8-16d93f43286f))
+    (model ":KICAD7_3DMODEL_DIR:Package_TO_SOT_SMD.3dshapes/SOT-23.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_01005_0402Metric" (layer "F.Cu")
@@ -1054,10 +1059,10 @@
       (net 5 "/IO0") (pinfunction "2") (pintype "passive") (tstamp 666c163d-e440-4812-9221-8372e416f213))
     (pad "2" smd rect (at 3.975 2.25) (size 1.55 1.3) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 5 "/IO0") (pinfunction "2") (pintype "passive") (tstamp d6fc24a9-dfe8-40c3-8086-6674ceb133a1))
-    (model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_B3S-1000.wrl"
+    (model "/home/filippo/Documents/KiCad_projects/Project-Libraries/B3S-1000P/B3S-1000P.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 90))
     )
   )
 
@@ -1188,6 +1193,11 @@
       (net 5 "/IO0") (pinfunction "E") (pintype "passive") (solder_mask_margin 0.07) (tstamp b6dfa0fe-ede1-4969-96ac-c19c7e586a33))
     (pad "3" smd rect (at 1.05 0) (size 1.3 0.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 45 "/DTR") (pinfunction "C") (pintype "passive") (solder_mask_margin 0.07) (tstamp 3147beb1-3886-43b9-8456-ca9ae8f0b721))
+    (model ":KICAD7_3DMODEL_DIR:Package_TO_SOT_SMD.3dshapes/SOT-23.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "digikey-footprints:ESP32-WROOM-32D" (layer "F.Cu")
@@ -1324,6 +1334,11 @@
       (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 44396726-d7d1-4871-aa95-946f748dbd98))
     (pad "39" smd rect (at -1 -1.755) (size 5 5) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp fb6c3b6b-2c6e-4d0a-999b-cdb38b206134))
+    (model "/home/filippo/Documents/KiCad_projects/Project-Libraries/ESP-WROOM-32/ESP-WROOM-32--3DModel-STEP-56544.STEP"
+      (offset (xyz 0 3 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
@@ -1832,10 +1847,10 @@
       (net 4 "/EN") (pinfunction "2") (pintype "passive") (tstamp 4c2e5afa-4a7d-4443-8dc0-b1f822f97d7d))
     (pad "2" smd rect (at 3.975 2.25) (size 1.55 1.3) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "/EN") (pinfunction "2") (pintype "passive") (tstamp 1cde94e4-6c63-4898-bcca-5c58f4229e3d))
-    (model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_B3S-1000.wrl"
+    (model "/home/filippo/Documents/KiCad_projects/Project-Libraries/B3S-1000P/B3S-1000P.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 90))
     )
   )
 
@@ -4221,10 +4236,10 @@
       (net 45 "/DTR") (pinfunction "DTR") (pintype "output") (tstamp fd585313-effe-4732-8ec6-d4f7543b3bfb))
     (pad "29" smd rect locked (at 0 0 180) (size 2.7 2.7) (layers "B.Cu" "B.Mask")
       (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp ea7d0bd7-d30e-4031-ba5e-5b5850fc7e44))
-    (model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/TQFN-28-1EP_5x5mm_P0.5mm_EP2.7x2.7mm.wrl"
+    (model "/home/filippo/Documents/KiCad_projects/Project-Libraries/CP2102N-A01-GQFN28/CP2102N-A01-GQFN28--3DModel-STEP-56544.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
